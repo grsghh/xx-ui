@@ -1,14 +1,19 @@
 {
-  "name": "xx-ui2",
+  "name": "xx-ui-pro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-xx-ui --dest lib packages/index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vcolorpicker": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-xx-ui": "file:lib"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
