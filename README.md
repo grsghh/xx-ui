@@ -1,19 +1,8 @@
-# xx-ui2
+## 目录结构  
+docs 组件文档
 
-## Project setup
-```
-npm install
-```
+examples 组件演示
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+lib 打包后的组件
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+packages 组件源码

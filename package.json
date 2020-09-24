@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vcolorpicker": "^1.0.1",
     "vue": "^2.6.11",
     "vue-xx-ui": "file:lib"
   },
@@ -20,7 +19,8 @@
     "@vue/cli-service": "~4.5.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.4"
   },
   "browserslist": [
     "> 1%",
