@@ -6,3 +6,14 @@
 <ClientOnly>
  <button-index></button-index>
 </ClientOnly>
+
+::: tip
+测试类型 `type`、`test`
+:::
+
+```
+<xx-button>文档测试按钮</xx-button>
+```
+## 示例代码如下
+
+<<< @/docs/.vuepress/components/button/index.vue

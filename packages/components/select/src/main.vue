@@ -14,7 +14,7 @@
 
 <script>
   export default {
-    name: "XxSelect",
+    name: "NsSelect",
     props: {
       list: {
         require: true,

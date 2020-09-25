@@ -12,7 +12,7 @@
 
 <script>
   export default {
-    name: "XxButton",
+    name: "NsButton",
     props: {
       text: {
         default: '',

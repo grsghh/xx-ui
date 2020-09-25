@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <xx-button
+    <ns-button
       @click="handleClick"
-    >12232323233</xx-button>
-    <xx-select
+    >12232323233</ns-button>
+    <ns-select
       :list="list"
       v-model="selectVal"
       @change="handleChange"
-    ></xx-select>
+    ></ns-select>
   </div>
 </template>
 

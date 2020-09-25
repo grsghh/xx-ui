@@ -1,11 +1,11 @@
 // 导入组件
-import XxButton from './button';
-import XxSelect from './select';
+import NsButton from './components/button';
+import NsSelect from './components/select';
 
 // 存储组件列表
 const components = [
-  XxButton,
-  XxSelect
+  NsButton,
+  NsSelect
 ];
 
 // 定义install方法，接受Vue作为参数
@@ -20,10 +20,10 @@ const install = function(Vue) {
 if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
-export {
+export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
   // 下面是具体的组件列表
-  XxButton,
-  XxSelect
+  NsButton,
+  NsSelect
 };
