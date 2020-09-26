@@ -1,6 +1,7 @@
 // 导入组件
 import NsButton from './components/button';
 import NsSelect from './components/select';
+import './styles/index.scss'
 
 // 存储组件列表
 const components = [
@@ -24,6 +25,5 @@ export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
   // 下面是具体的组件列表
-  NsButton,
-  NsSelect
+  ...components
 };

@@ -81,16 +81,18 @@ module.exports = {
     config.resolve.alias
         .set('~', path.resolve('packages'))
         .set('@', path.resolve('examples'));
+    // 把 packages 和 examples 加入编译，因为新增的文件默认是不被 webpack 处理的
     config.module
-      .rule('js')
-      .include
-      .add('/packages')
-      .end()
-      .use('babel')
-      .loader('babel-loader')
-      .tap(options => {
-        // 修改它的选项...
-        return options
-      })
+        .rule('js')
+        .include.add(/packages/)
+        .end()
+        .include.add(/examples/)
+        .end()
+        .use('babel')
+        .loader('babel-loader')
+        .tap(options => {
+          // 修改它的选项...
+          return options
+        })
   },
 };
