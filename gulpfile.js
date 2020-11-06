@@ -83,3 +83,8 @@ gulp.task('doc', cb => {
     }))
     .pipe(gulp.dest('./docs/component'));
 });
+// 拷贝packages.json 到lib目录
+gulp.task('copyPackage', function() {
+  return gulp.src('./version/package.json')
+    .pipe(gulp.dest('./lib'));
+});

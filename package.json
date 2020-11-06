@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name vue-ns-ui --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name vue-ns-ui --dest lib packages/index.js & gulp copyPackage",
     "docs:dev": "gulp doc & vuepress dev docs",
-    "gulp": "gulp doc",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "gulp:doc": "gulp doc",
+    "gulp:copyPackage": "gulp copyPackage",
+    "lint:fix": "eslint --fix --ext .js --ext .vue packages"
   },
   "dependencies": {
     "async-validator": "1.11.5",

@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "NsButton",
+  name: 'NsButton',
   props: {
     text: String
   },
