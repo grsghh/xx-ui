@@ -1,0 +1,16 @@
+{
+  "id": "1511500",
+  "name": "libdesign",
+  "font_family": "libdesignfont",
+  "css_prefix_text": "libdesign_icon_",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5723602",
+      "name": "alter_delete",
+      "font_class": "stencil_delete",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

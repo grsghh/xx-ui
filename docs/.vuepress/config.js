@@ -1,6 +1,7 @@
 module.exports = {
   title: 'vue-ns-ui',
   description: '新星科技ui',
+  base: '/',
   dest: './dist-doc',
   themeConfig: {
     sidebarDepth: 0,

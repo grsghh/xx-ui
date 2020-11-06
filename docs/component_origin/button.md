@@ -2,20 +2,7 @@
 常用的操作按钮
 ## 基础用法
 基础的按钮用法
-
-<ClientOnly>
- <button-index></button-index>
-</ClientOnly>
-
-::: tip
-使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
-:::
-
-::: details 点击查看代码
-```vue
-  <ns-button>文档测试按钮</ns-button>
-```
-:::
+:::demo====button-index====使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
 ## Attributes 属性
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |

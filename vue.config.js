@@ -9,6 +9,13 @@ module.exports = {
       filename: 'index.html'
     }
   },
+  lintOnSave: true,
+  devServer: {
+    // overlay: {
+    //   warnings: false,
+    //   errors: false
+    // },
+  },
   outputDir: path.resolve(__dirname, 'dist'),
   publicPath: './',
   // configureWebpack: {

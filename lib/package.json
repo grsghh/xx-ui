@@ -1,6 +1,6 @@
 {
   "name": "vue-ns-ui",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "vue-ns-ui.umd.min.js",
   "author": "Ray",
   "description": "基于Vue的护理系统组件库"

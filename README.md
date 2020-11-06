@@ -6,3 +6,6 @@ examples 组件演示
 lib 打包后的组件
 
 packages 组件源码
+
+version 供打包后组件使用的package.json
+

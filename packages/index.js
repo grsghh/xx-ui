@@ -1,7 +1,9 @@
 // 导入组件
 import NsButton from './components/button';
 import NsSelect from './components/select';
-import './styles/index.scss'
+// 导入css
+import './styles/index.scss';
+import './iconfonts/icons1/iconfont.css';
 
 // 存储组件列表
 const components = [

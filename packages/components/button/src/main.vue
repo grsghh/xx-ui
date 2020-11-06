@@ -1,30 +1,29 @@
 <template>
   <div>
-    <button
+    <el-button
       @click="handleClick"
     >
       <span
         v-if="$slots.default"
-      ><slot></slot></span>
-    </button>
+      >
+        <slot />
+      </span>
+    </el-button>
   </div>
 </template>
 
 <script>
-  export default {
-    name: "NsButton",
-    props: {
-      text: {
-        default: '',
-        Type: String
-      }
-    },
-    methods: {
-      handleClick(event) {
-        this.$emit('click', event);
-      }
+export default {
+  name: "NsButton",
+  props: {
+    text: String
+  },
+  methods: {
+    handleClick(event) {
+      this.$emit('click', event);
     }
   }
+}
 </script>
 
 <style scoped>
