@@ -13,5 +13,5 @@ packages.json
   lib 组件库打包
   docs:dev 组件库文档开发环境  
   docs:build 组件库打包  
-  gulp 使用gulp自动生成组件md文档  
+  gulp:doc 使用gulp自动生成组件md文档  
   lint:fix 自动修复eslint错误  
